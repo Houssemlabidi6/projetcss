@@ -5,24 +5,37 @@ h1 {
   background-image: url(/img1.webp);
   text-align: center;
   color: beige;
+  font-size: 60px;
 }
 
 a {
   color: red;
   text-decoration: dashed;
+  font-weight: bold;
   font-size: x-large;
-  padding: 70px;
+  padding: 100px;
 }
 
-a :hover {
-  font-size: large;
+a:hover {
+  color: blue;
+  font-size: 80px;
 }
 
-p {
+.y {
   font-size: large;
   background-color: aqua;
   margin: 30px;
   text-align: center;
+}
+
+.b {
+  color: green;
+  font-size: 40px;
+}
+
+.c {
+  font-size: 40px;
+  background-color: beige;
 }
 
 iframe {
@@ -37,8 +50,13 @@ ul {
   width: 150px;
 }
 
-form {
-  font-size: large;
-  border: solid red;
-  width: 210px;
+img {
+  border-radius: 50%;
+  border: solid 2px black;
+}
+
+section,
+.z {
+  color: blue;
+  font-size: 40px;
 }
