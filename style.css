@@ -1,0 +1,44 @@
+body {
+  background-color: #8080801a;
+}
+h1 {
+  background-image: url(/img1.webp);
+  text-align: center;
+  color: beige;
+}
+
+a {
+  color: red;
+  text-decoration: dashed;
+  font-size: x-large;
+  padding: 70px;
+}
+
+a :hover {
+  font-size: large;
+}
+
+p {
+  font-size: large;
+  background-color: aqua;
+  margin: 30px;
+  text-align: center;
+}
+
+iframe {
+  border-radius: 10%;
+  padding-left: 400px;
+}
+
+ul {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  border: solid red;
+  width: 150px;
+}
+
+form {
+  font-size: large;
+  border: solid red;
+  width: 210px;
+}
